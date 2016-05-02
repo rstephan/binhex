@@ -7,9 +7,11 @@ or what ever.
 # Output-formats (style)
 
 - None, classic
+
     `const unsigned char bla[]`
-   
+
 - "avr", compile into flash
+
     `const uint8_t PROGMEM bla[]`
 
 # Usage
@@ -34,11 +36,11 @@ binhex v2.1, Juni 2009 - 2016, by Stephan Ruloff
 converting in.html ...
 ```
 
-Pipe into a file, with no _output_
+Pipe into a file, with no "output"
 ```
 $ ./binhex -f in.htm -p FILE1 -q > bla.h
 ```
 
-# Licencse
+# License
 
 GPLv2
